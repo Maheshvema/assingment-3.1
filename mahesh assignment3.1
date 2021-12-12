@@ -1,0 +1,29 @@
+import java.util.*;
+public class Main
+{
+   public static void main(String args[]) 
+  {
+		Scanner sc= new Scanner(System.in);
+		int number=sc.nextInt();
+		int count = 0;
+		for(int i=1;i<=number;i++ ) {
+			if(num%i==0)
+			{
+				count+=1;
+				
+			}
+			
+		}
+		if(count%2==0)
+		{
+			System.out.println(" given number is not a perfect square");
+		}
+		else
+		{
+			System.out.println("given number is a perfect number");
+		}
+		
+
+	}
+
+}
